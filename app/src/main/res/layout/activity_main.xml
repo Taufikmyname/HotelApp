@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="start|top"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$78"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textColor="#fff"
+                android:textSize="13sp"/>
+        </LinearLayout>
+    </FrameLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="The Beach is but a short walk away"
+                android:textSize="24sp"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:gravity="center"
+                android:text="Lorem ipsum dolor sit amet. Ea nemo galisum 33 ratione vero id optio eaque a esse quia. Ut impedit accusantium et molestias ipsum et eveniet expedita At perferendis voluptas ut natus voluptatem et blanditiis nisi. Eos quos incidunt vel voluptatem molestias ex nemo laboriosam aut atque mollitia? Cum reiciendis laboriosam eos atque dolor est expedita Quis ut nihil atque quo magnam autem a nobis incidunt?
+
+Et rerum ducimus vel dolorem suscipit sit explicabo voluptatibus est aspernatur internos nam eligendi aliquam. Est voluptatem perferendis in rerum nihil aut delectus maiores ab voluptas perferendis! Aut culpa voluptates rem omnis laboriosam et laborum voluptatem et quae consequatur sit molestias ullam ab mollitia ipsam qui enim vitae.
+
+Est nihil consectetur 33 sint illum a veniam labore est aspernatur perferendis ea placeat omnis et molestias mollitia vel explicabo dolorem. Et omnis illum et possimus quae 33 fuga aliquam eum veritatis Quis cum earum earum. Ut odit error ea Quis natus ut quae magnam quo voluptas maiores est ipsum facere et nihil deleniti qui laudantium omnis. Lorem ipsum dolor sit amet. Ea quia voluptatem est voluptate rerum eos perferendis harum. Ex fugit voluptatem ex Quis similique et ipsum nobis vel cupiditate ipsa sed modi molestiae id perferendis molestiae. Non suscipit neque ab quia quod sed praesentium veritatis et odio obcaecati ut quaerat debitis qui asperiores numquam qui exercitationem corrupti. Aut laudantium aliquam ut architecto quia et molestiae quia. Qui tenetur nulla aut dolore beatae sit corrupti dolorem 33 neque omnis et voluptas nulla! Eum consectetur ratione id dolor nihil et unde porro et galisum veritatis ut laborum fuga id galisum saepe sit laborum ipsa. Eos voluptatem commodi sit iure aliquam sed voluptates voluptatem qui dolores aliquam in incidunt sint sed quasi repudiandae?
+
+Et officiis rerum sit nemo rerum et recusandae quasi et inventore pariatur qui deserunt voluptatem et quasi deleniti ut voluptates quaerat. Aut sapiente voluptatem est officia vitae in aperiam nihil ad velit sint ut molestiae natus quo dolorem dolor vel itaque amet. Aut maiores minus ut consequuntur tempora ex quaerat perferendis a ratione architecto. Ut enim voluptatem qui blanditiis blanditiis cum quaerat fuga a alias internos. Sed dolorem aliquam in eius rerum ea enim cupiditate et voluptatibus officiis quo commodi molestiae non suscipit rerum sed reiciendis ipsum. In officia asperiores non ullam odit non officiis cupiditate et quasi saepe et pariatur expedita aut necessitatibus exercitationem quo internos iusto! Ut suscipit eveniet rem cumque perspiciatis rem inventore ipsum.
+
+Aut sapiente tempora ut rerum repellendus et consequuntur velit. Nam consectetur fugit quo soluta totam ea porro doloribus et quasi pariatur. Est soluta provident et totam fugiat ea veritatis ducimus qui beatae quam. Et veritatis architecto et natus molestiae rem earum aliquid et galisum tenetur aut galisum fuga ut minus saepe. In dolorum obcaecati aut dolores provident est officiis doloribus qui commodi quam ea eligendi libero ut dolorum optio et ipsa assumenda." />
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/black"
+        android:text="Book Now!"/>
+</LinearLayout>
